@@ -1,0 +1,176 @@
+@font-face{
+    font-family: Segoe UI;
+    src : url('font/SEGOEUI.TTF');
+}
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+body{
+    color:#444444;
+    font-size:13px;
+    background: #f2f2f2;
+    font-family:"Segoe UI", Helvetica, sans-serif;
+}
+#content{
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+#wrapper{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:5px;
+    border:2px solid #fff;
+    background-color:#f9f9f9;
+    width:95%;
+
+    overflow:hidden;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.button{
+	font-size: 62.5%;
+}
+
+#steps form fieldset{
+    border:none;
+    padding-bottom:5px;
+}
+#steps form legend{
+    text-align:left;
+    background-color:#f0f0f0;
+    color:#666;
+    font-size:25px;
+    text-shadow:1px 1px 1px #fff;
+    font-weight:bold;
+    /*float:left;*/
+    width:1000px;
+    padding:5px 0px 5px 10px;
+    margin:10px 0px;
+    border-bottom:1px solid #fff;
+    border-top:1px solid #d9d9d9;
+}
+#steps form p{
+    float:left;
+    clear:both;
+    margin:5px 0px;
+    background-color:#f4f4f4;
+    border:1px solid #fff;
+    
+    padding:10px;
+    margin-left:10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+}
+#steps form p label{
+    width:160px;
+    float:left;
+    text-align:right;
+    margin-right:15px;
+    line-height:26px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+#steps form input:not([type=radio]),
+#steps form textarea,
+#steps form select{
+    background: #ffffff;
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+    float:left;
+}
+#steps form input:focus{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background-color:#FFFEEF;
+}
+#steps form p.submit{
+    background:none;
+    border:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+#steps form button {
+	border:none;
+	outline:none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+    cursor:pointer;
+    margin: 0px auto;
+    clear:both;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #777;
+    font-weight:bold;
+    font-family:"Segoe UI", Helvetica, sans-serif;
+    font-size:22px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background:#4797ED;
+}
+#steps form button:hover {
+    background:#d8d8d8;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.datepicker{
+	width: 7em;
+	reaonly:'readonly';
+}
+
+
+h2{
+	font-family:"Segoe UI";
+	color:#ccc;
+	font-size:24px;
+	text-shadow:1px 1px 1px #fff;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+span.menu{
+	position:relative;
+}
+
+#msg_info{
+
+	color:#89A342;
+
+}
+
+.title{
+
+	font-family:"Segoe UI";
+	color:#757574;
+	font-size:24px;
+	text-shadow:1px 1px 1px #fff;
+	padding-top:0px;
+	padding-bottom:10px;
+}

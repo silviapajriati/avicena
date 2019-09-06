@@ -1,0 +1,22 @@
+ธิ\n"); // Quotation from Wikipedia
+        $this -> checkOutput();
+    }
+
+    public function testTurkish()
+    {
+        $this -> buffer -> writeText("Pijamalı hasta, yağız şoföre çabucak güvendi.\n");
+        $this -> checkOutput("\x1b@Pijamal\x1bt\x02\xd5 hasta, ya\x1bt\x0d\xa7\x8dz \x9fof\x94re \x87abucak g\x81vendi.\x0a");
+    }
+    
+    public function testArabic()
+    {
+        $this -> markTestIncomplete("Right-to-left text not yet supported.");
+        $this -> buffer -> writeText("صِف خَلقَ خَودِ كَمِثلِ الشَمسِ إِذ بَزَغَت — يَحظى الضَجيعُ بِها نَجلاءَ مِعطارِ" . "\n"); // Quotation from Wikipedia
+        $this -> checkOutput();
+    }
+    
+    public function testHebrew()
+    {
+        // RTL text is more complex than the above.
+        $this -> markTestIncomplete("Right-to-left text not yet supported.");
+        $this -> buffer -> writeText("דג סקרן שט בים מאוכזב ולפתע מצא לו חברה איך הק�

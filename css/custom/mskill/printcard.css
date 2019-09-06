@@ -1,0 +1,89 @@
+.child-table{
+
+    border: 5px solid #256fe8;	    
+}
+
+.front-card{
+
+    border: 4px solid #256fe8;	    
+}
+
+.full-border{
+
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.full-border td{
+
+	text-align: center;
+}
+
+td{
+
+	font-family: arial;
+	font-size: 14px;
+	vertical-align: top;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.td-head{
+
+	text-align: center;
+	font-size: 18px;
+	color: #5b5d60;
+}
+
+.border-top{
+
+	border-top: 2px solid #000;
+}
+
+.border-right{
+
+	border-right: 2px solid #000;
+}
+
+.border-bottom{
+
+	border-bottom: 2px solid #000;
+}
+
+.border-left{
+
+	border-left: 2px solid #000;
+}
+
+.text-middle-center{
+
+	text-align:center;
+	vertical-align:middle;
+}
+
+.td_skill{
+
+	text-align:center;
+	width: 45px;
+	height: 45px;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.sub-header{
+
+	font-size: 7px;
+	font-weight: bold;
+}
+
+.detail{
+
+	font-size: 7px;
+	font-weight: normal;
+}
+
+p{
+
+	margin:0px;
+	padding: 0px;
+}

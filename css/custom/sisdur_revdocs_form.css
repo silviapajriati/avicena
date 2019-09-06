@@ -1,0 +1,61 @@
+label {
+	
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+}
+
+.label-cek{
+	
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+}
+
+table{
+
+	margin-left: 92px;		
+	border:1px solid #a1a1a1;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.k-textbox.small {
+
+	width: 60px !important;
+}
+
+.k-textbox.width {
+
+	width: 460px !important;
+}
+
+.k-textbox.textbox-width {
+
+	width: 400px !important;
+}
+
+.k-textbox.textbox-medium {
+
+	width: 200px !important;
+}
+
+.k-textbox.textbox-small {
+
+	width: 30px !important;
+}
+
+.pointer{
+
+	cursor: pointer;
+}
+
+
+#form_edit{
+
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	padding-left: 30px;
+}

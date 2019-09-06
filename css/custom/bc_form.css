@@ -1,0 +1,10 @@
+@font-face{
+	font-family: Segoe UI;
+	src : url('../font/SEGOEUI.TTF');
+}
+
+
+table td{
+
+	font-family: Segoe UI;
+}

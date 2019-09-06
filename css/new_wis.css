@@ -1,0 +1,37 @@
+@font-face{
+	font-family: Segoe UI;
+	src : url('font/SEGOEUI.TTF');
+}
+
+@font-face{
+	font-family: Segoe WP;
+	src : url('font/SegoeWP-Light.TTF');
+}
+
+@font-face{
+	font-family: "Open Sans";
+	src : url('font/open-sans/OpenSans-Regular.ttf');
+}
+
+body {
+  margin: 0;
+ /* background-image:url(../images/background.jpg);*/
+  font-family:Segoe UI;
+  font-size:70%;
+}
+
+.wis-logo{
+
+	padding:0px 0px 0px 5px;
+}
+
+.link-logo{
+
+	margin:5px 0 0 0;
+}
+
+.title-menu{
+
+	padding-right: 10px;
+	margin-right: 10px;
+}

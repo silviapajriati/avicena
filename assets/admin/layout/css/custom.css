@@ -1,0 +1,105 @@
+body {
+	color: #333333;
+  	font-family: "Segoe UI", sans-serif;
+  	font-size: 12px;
+}
+
+.portlet > .portlet-title > .caption {
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 0;
+}
+
+.page-sidebar-fixed:not(.page-footer-fixed) .page-footer {
+
+    background-color: #2D5F8B;
+}
+
+.page-sidebar-fixed:not(.page-footer-fixed) .page-footer .page-footer-inner {
+    color: #fff;
+}
+
+.font-medium{
+
+	font-size: 16px;
+}
+
+.button-tools{
+
+	float: right;
+	margin-top: 5px;
+}
+
+.tight-bottom{
+
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
+
+.tight-bottom-top{
+
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.tight-left{
+
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.form .form-actions {
+
+	padding: 5px 5px;
+}
+
+.cur-hand{
+
+	cursor: pointer;
+}
+
+.modal-medium-sm{
+
+	width: 500px;
+}
+
+.modal-medium{
+
+	width: 700px;
+}
+
+.h-title-menu{
+
+	font-size: 18px;
+	position: relative;
+	float: left;
+	color:#F0E9F2;
+	display: block;
+	padding-top: 10px;
+}
+
+.h-title-datetime{
+
+	color:#e1ff96;
+	display: block;
+	padding-top: 17px;
+	text-align: right;
+	font-size: 12px;
+}
+
+.cek-search{
+
+	padding-left: 25px;
+	position: relative;
+	clear: left;
+}
+
+.page-content-wrapper .page-content {
+    /*padding-top: 15px;*/
+    padding: 0px 15px;
+}

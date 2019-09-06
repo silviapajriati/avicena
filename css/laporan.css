@@ -1,0 +1,61 @@
+body {
+    font-family: 'Courier New',Courier,monospace;
+    font-size: 11px;
+	margin-left:20px;
+}
+
+td {
+    padding: 5px 5px 5px 5px;
+}
+
+td.tutupkiri {
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+  }
+
+td.tutupkanan {
+    border-top: 1px solid #999999;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+  
+td.box {
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+}
+
+td.boxtutup {
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+td.garisatas {
+    border-top: 1px solid #999999;
+}
+
+td.closeall {
+    border: 1px solid #999999;
+    /*
+    border-top: 1px solid #999999;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-left: 1px solid #999999;
+    */
+}
+.back{
+background: url(../images/back.bmp);
+width:25px;
+height:25px;
+border:0;
+margin-left:465px;
+cursor: pointer;
+	}
+.back:hover{
+background: url(../images/back.png);
+width:25px;
+height:25px;
+border:none;
+cursor: pointer;
+	}

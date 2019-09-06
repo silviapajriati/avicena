@@ -1,0 +1,105 @@
+@font-face{
+    font-family: Segoe UI;
+    src : url('../font/SEGOEUI.TTF');
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+body{
+    color:#444444;
+    font-size:12px;
+    background: #f2f2f2;
+    font-family:"Segoe UI", Helvetica, sans-serif;
+}
+.title{
+
+	font-family:"Segoe UI";
+	color:#757574;
+	font-size:24px;
+	text-shadow:1px 1px 1px #fff;
+	padding-top:0px;
+	padding-bottom:5px;
+}
+.panels{
+
+    margin: 20px;
+}
+
+.k-textbox.textbox-medium {
+    width: 230px !important;
+}
+
+.k-textbox.txt-small-med {
+    width: 90px !important;
+}
+
+.k-textbox.txt-small {
+    width: 50px !important;
+}
+
+.k-textbox.txt-med-width {
+    width: 300px !important;
+}
+
+
+label{
+
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+.label-info{
+
+    display: inline-block;
+    width: 190px;
+    text-align: left;
+    font-weight: bold;
+}
+.check{
+
+    cursor: pointer;
+}
+.uppercase{
+
+    text-transform:uppercase;
+}
+
+#t-grid-po{
+
+    padding-bottom: 10px;
+}
+
+.k-popup .k-calendar {
+
+    font-size: 12px !important;
+ } 
+
+.add-item{
+
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.lbl-ket{
+
+    margin-left: 10px;   
+}
+
+.action-add{
+
+    margin-top: 50px;
+}
+
+#txt_deliver_plan, #txt_remark{
+
+    margin-left: 10px;   
+}

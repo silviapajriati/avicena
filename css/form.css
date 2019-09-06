@@ -1,0 +1,22 @@
+.div_container{
+    
+    background-color:white;
+    width:700px;
+    height: 400px;
+}
+
+.form_inv td{
+
+    padding: 3px;
+    vertical-align: top;
+}
+
+.uppercase{
+
+    text-transform:uppercase;
+}
+
+#btn_save,#btn_cancel {
+
+    width:100px;    
+}

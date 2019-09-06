@@ -1,0 +1,49 @@
+label {
+	
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+}
+
+table{
+
+	margin-left: 92px;		
+	border:1px solid #a1a1a1;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.k-textbox.small {
+
+	width: 50px !important;
+}
+
+.k-textbox.width {
+
+	width: 430px !important;
+}
+
+.k-textbox.textbox-width {
+
+	width: 350px !important;
+}
+
+.k-textbox.textbox-medium {
+
+	width: 200px !important;
+}
+
+.pointer{
+
+	cursor: pointer;
+}
+
+
+#form_registrasi{
+
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	padding-left: 50px;
+}

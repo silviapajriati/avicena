@@ -1,0 +1,44 @@
+table{
+
+	border-collapse:collapse;
+	border-radius:10px;
+}
+
+td{
+
+	padding:2px;
+	font-family:arial;
+	font-size:10px;
+}
+
+.border-full{
+
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.border-right{
+			
+	border-right: 1px solid black;	
+}
+
+.border-rl{
+			
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.border-rlb{
+			
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.border-rb{
+	
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}

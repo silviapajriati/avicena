@@ -1,0 +1,33 @@
+@font-face{
+    font-family: Segoe UI;
+    src : url('../font/SEGOEUI.TTF');
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+body{
+    color:#444444;
+    font-size:12px;
+    background: #f2f2f2;
+    font-family:"Segoe UI", Helvetica, sans-serif;
+}
+.title{
+
+	font-family:"Segoe UI";
+	color:#757574;
+	font-size:24px;
+	text-shadow:1px 1px 1px #fff;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+.panels{
+
+    margin: 20px;
+}
